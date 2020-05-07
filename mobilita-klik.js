@@ -9,7 +9,7 @@
     .then((data) => {
       const sel = document.createElement('select')
       sel.setAttribute('id', 'klik_sel')
-      const mesta = [...new Set( data.map(v => v[1]))]
+      const mesta = [...new Set(data.map(v => v[1]))]
       mesta.forEach(m => sel.innerHTML += `<option value="${m}">${m}</option>`)
       document.getElementById('mobilita-klik').appendChild(sel)
 
@@ -25,14 +25,14 @@
                 text: mesto
             },
             subtitle: {
-                text: 'změna v mobilitě obyvatel, data: T-Mobile mobility report'
+                text: 'změna v počtu unikátních SIM karet oproti minulosti, data: T-Mobile mobility report'
             },
             credits: {
                 enabled: false,
             },
             yAxis: {
                 title: {
-                    text: 'změna cestujících v %'
+                    text: 'změna v %'
                 }
             },
             xAxis: {
