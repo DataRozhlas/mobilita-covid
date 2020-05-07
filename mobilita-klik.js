@@ -25,7 +25,7 @@
                 text: mesto
             },
             subtitle: {
-                text: 'změna v počtu unikátních SIM karet oproti minulosti, data: T-Mobile mobility report'
+                text: 'změna v počtu unikátních SIM karet oproti minulosti, data: T-Mobile atlas mobility'
             },
             credits: {
                 enabled: false,

@@ -13,7 +13,7 @@
                   text: 'Cizinci v Česku'
               },
               subtitle: {
-                  text: 'změna v počtu cizích SIM karet oproti minulosti, data: T-Mobile mobility report'
+                  text: 'změna v počtu cizích SIM karet oproti minulosti, data: T-Mobile atlas mobility'
               },
               credits: {
                   enabled: false,
